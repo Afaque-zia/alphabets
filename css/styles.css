@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+    color: #3AB0FF;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-color: #3AB0FF;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 1 1 7px 5px gray;
+}
+.brand-logo{
+    width:200px; 
+    height:75px;
+}
+.alphabetItem{
+    font-size: 250px;
+    user-select: none;
+    font-weight: 900;
+}
+.alphabetItem:nth-child(odd){
+    color: #3AB0FF;
+    /* color: #FFB562; */
+}
+.alphabetItem:nth-child(Even){
+    color: #FFB562;
+}
