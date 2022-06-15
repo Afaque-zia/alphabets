@@ -3,7 +3,7 @@ var audios = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q
 var alphabets = document.querySelectorAll(".card");
 // Run  On KeyPress Event
 document.querySelector("body").addEventListener("keypress", function name(event) {
-    var audio = new Audio("./"+ event.key+ ".mp3");
+    var audio = new Audio("./audios/"+ event.key+ ".mp3");
     audio.play();
 });
 // Run On Click Event
